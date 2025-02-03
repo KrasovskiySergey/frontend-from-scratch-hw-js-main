@@ -15,12 +15,14 @@ const game = {
     gold: 250,
     lumber: 100,
   },
-  addResource() {}
-}
+  
+
+
 addResource (resource, amount) {
   if (!game.resources.hasOwnProperty(resources)) {
     console.log("Invalid resource");
     return;
   }
   game.resources[resources] += amount;
+}
 }
