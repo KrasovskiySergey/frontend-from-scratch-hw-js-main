@@ -17,3 +17,10 @@ const game = {
   },
   addResource() {}
 }
+addResource (resource, amount) {
+  if (!game.resources.hasOwnProperty(resources)) {
+    console.log("Invalid resource");
+    return;
+  }
+  game.resources[resources] += amount;
+}
