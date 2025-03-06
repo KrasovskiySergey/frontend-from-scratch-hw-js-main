@@ -37,7 +37,7 @@ startButton.addEventListener('click', () => {
   countdownDisplay.textContent = counter.toString();
 
   timerId = setInterval(() => {
-    if (counter > 0) {
+    if (counter > 1) {
       counter--;
       countdownDisplay.textContent = counter.toString(); // Обновляем дисплей
     } else {
